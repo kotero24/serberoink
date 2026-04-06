@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Geist:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 98%;
+    --border: 0 0% 15%;
+    --input: 0 0% 10%;
+    --primary: 43 62% 51%;
+    --primary-foreground: 0 0% 4%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 55%;
+    --accent: 0 0% 14%;
+    --destructive: 0 72% 51%;
+    --ring: 43 62% 51%;
+  }
+
+  * {
+    @apply border-zinc-800;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#0a0a0a] text-white;
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Geist', sans-serif;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: 'Geist', sans-serif;
+  }
+
+  .font-body {
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .ink-border {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .gold-accent {
+    color: #d4af37;
+  }
+
+  .btn-primary {
+    @apply bg-white text-black font-semibold px-6 py-3 rounded-none transition-all duration-200 hover:bg-zinc-200 active:scale-95 text-sm tracking-wide uppercase;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent text-white border border-white/20 font-medium px-6 py-3 rounded-none transition-all duration-200 hover:border-white/60 hover:bg-white/5 active:scale-95 text-sm tracking-wide uppercase;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent text-zinc-400 font-medium px-4 py-2 rounded-none transition-all duration-150 hover:text-white hover:bg-white/5 active:scale-95 text-sm;
+  }
+
+  .card-dark {
+    @apply bg-zinc-900 border border-zinc-800 rounded-none;
+  }
+
+  .input-dark {
+    @apply bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-600 px-4 py-3 w-full text-sm focus:outline-none focus:border-zinc-500 transition-colors duration-150 rounded-none;
+  }
+
+  .label-dark {
+    @apply block text-xs font-medium text-zinc-400 mb-1.5 tracking-wider uppercase;
+  }
+
+  .badge-offer {
+    @apply inline-flex items-center gap-1 bg-[#d4af37]/15 text-[#d4af37] border border-[#d4af37]/30 px-2 py-0.5 text-xs font-semibold tracking-wider uppercase;
+  }
+
+  .badge-active {
+    @apply inline-flex items-center gap-1 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 text-xs font-semibold tracking-wider uppercase;
+  }
+
+  .badge-inactive {
+    @apply inline-flex items-center gap-1 bg-zinc-800 text-zinc-500 border border-zinc-700 px-2 py-0.5 text-xs font-semibold tracking-wider uppercase;
+  }
+
+  .sidebar-link {
+    @apply flex items-center gap-3 px-4 py-3 text-sm font-medium text-zinc-400 transition-all duration-150 hover:text-white hover:bg-white/5 rounded-none border-l-2 border-transparent;
+  }
+.sidebar-link-active  {
+    @apply flex items-center gap-3 px-4 py-3 text-sm font-medium text-white rounded-none border-l-2 border-[#d4af37];
+  }
+.tattoo-card  {
+    @apply relative overflow-hidden bg-zinc-900 border border-zinc-800 cursor-pointer transition-all duration-300 hover:border-zinc-600;
+  }
+
+  .skeleton {
+    @apply animate-pulse bg-zinc-800 rounded-none;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.5s ease forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease forwards;
+  }
+}
