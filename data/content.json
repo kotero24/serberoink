@@ -1,94 +1,94 @@
 {
-    "tatuajes": [
-        {
-            "id": "tattoo-001",
-            "nombre": "Serpiente Geom\u00e9trica",
-            "descripcion": "Dise\u00f1o geom\u00e9trico de serpiente con l\u00edneas finas y sombras precisas. Ideal para brazo o pantorrilla.",
-            "imagen": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=600&q=80",
-            "enOferta": true
-        },
-        {
-            "id": "tattoo-002",
-            "nombre": "Lobo Blackwork",
-            "descripcion": "Retrato de lobo en estilo blackwork con relleno s\u00f3lido y detalles en puntillismo.",
-            "imagen": "https://images.unsplash.com/photo-1590246814883-57c511e80a8e?w=600&q=80",
-            "enOferta": false
-        },
-        {
-            "id": "tattoo-003",
-            "nombre": "Rosa Tradicional",
-            "descripcion": "Rosa cl\u00e1sica en estilo old school con contornos gruesos y colores vibrantes.",
-            "imagen": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&q=80",
-            "enOferta": true
-        },
-        {
-            "id": "tattoo-004",
-            "nombre": "Mandala Dotwork",
-            "descripcion": "Mandala elaborado en t\u00e9cnica dotwork, perfecto para espalda o pecho.",
-            "imagen": "https://images.unsplash.com/photo-1564213951511-6b7cc9b1f9a7?w=600&q=80",
-            "enOferta": false
-        },
-        {
-            "id": "tattoo-005",
-            "nombre": "Calavera Mexicana",
-            "descripcion": "Calavera de D\u00eda de Muertos con flores y ornamentos detallados.",
-            "imagen": "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?w=600&q=80",
-            "enOferta": false
-        },
-        {
-            "id": "tattoo-006",
-            "nombre": "Br\u00fajula N\u00e1utica",
-            "descripcion": "Br\u00fajula cl\u00e1sica con rosas de los vientos y detalles grabados en estilo realista.",
-            "imagen": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80",
-            "enOferta": true
-        },
-        {
-            "id": "tattoo-007",
-            "nombre": "Koi Japon\u00e9s",
-            "descripcion": "Carpa koi en estilo japon\u00e9s tradicional con olas y flores de cerezo.",
-            "imagen": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80",
-            "enOferta": false
-        },
-        {
-            "id": "tattoo-008",
-            "nombre": "Reloj Realista",
-            "descripcion": "Reloj de bolsillo en hiperrealismo con reflexiones de luz y sombras profundas.",
-            "imagen": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-            "enOferta": false
-        },
-        {
-            "id": "tattoo-009",
-            "nombre": "Fenix Minimalista",
-            "descripcion": "F\u00e9nix en estilo fine line minimalista, trazo \u00fanico continuo.",
-            "imagen": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80",
-            "enOferta": true
-        },
-        {
-            "id": "tattoo-010",
-            "nombre": "\u00c1rbol de la Vida",
-            "descripcion": "\u00c1rbol celta con entrelazados geom\u00e9tricos, ideal para espalda completa.",
-            "imagen": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&q=80",
-            "enOferta": false
-        },
-        {
-            "id": "tattoo-011",
-            "nombre": "Calavera Geom\u00e9trica",
-            "descripcion": "Calavera construida con formas geom\u00e9tricas y patrones de baja poligonalidad.",
-            "imagen": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&q=80",
-            "enOferta": false
-        },
-        {
-            "id": "tattoo-012",
-            "nombre": "Mariposa Acuarela",
-            "descripcion": "Mariposa en t\u00e9cnica acuarela con colores que se difuminan sobre la piel.",
-            "imagen": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80",
-            "enOferta": true
-        }
-    ],
-    "contacto": {
-        "telefono": "+54 11 4567-8901",
-        "whatsapp": "+5491145678901",
-        "instagram": "@serberoink",
-        "direccion": "Av. Corrientes 1234, CABA, Buenos Aires"
+  "tatuajes": [
+    {
+      "id": "tattoo-001",
+      "nombre": "Serpiente Geométrica",
+      "descripcion": "Diseño geométrico de serpiente con líneas finas y sombras precisas. Ideal para brazo o pantorrilla.",
+      "imagen": "https://images.unsplash.com/photo-1568515387631-8b650bbcdb90?w=600&q=80",
+      "enOferta": true
+    },
+    {
+      "id": "tattoo-002",
+      "nombre": "Lobo Blackwork",
+      "descripcion": "Retrato de lobo en estilo blackwork con relleno sólido y detalles en puntillismo.",
+      "imagen": "https://images.unsplash.com/photo-1590246814883-57c511e80a8e?w=600&q=80",
+      "enOferta": false
+    },
+    {
+      "id": "tattoo-003",
+      "nombre": "Rosa Tradicional",
+      "descripcion": "Rosa clásica en estilo old school con contornos gruesos y colores vibrantes.",
+      "imagen": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&q=80",
+      "enOferta": true
+    },
+    {
+      "id": "tattoo-004",
+      "nombre": "Mandala Dotwork",
+      "descripcion": "Mandala elaborado en técnica dotwork, perfecto para espalda o pecho.",
+      "imagen": "https://images.unsplash.com/photo-1564213951511-6b7cc9b1f9a7?w=600&q=80",
+      "enOferta": false
+    },
+    {
+      "id": "tattoo-005",
+      "nombre": "Calavera Mexicana",
+      "descripcion": "Calavera de Día de Muertos con flores y ornamentos detallados.",
+      "imagen": "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?w=600&q=80",
+      "enOferta": false
+    },
+    {
+      "id": "tattoo-006",
+      "nombre": "Brújula Náutica",
+      "descripcion": "Brújula clásica con rosas de los vientos y detalles grabados en estilo realista.",
+      "imagen": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=600&q=80",
+      "enOferta": true
+    },
+    {
+      "id": "tattoo-007",
+      "nombre": "Koi Japonés",
+      "descripcion": "Carpa koi en estilo japonés tradicional con olas y flores de cerezo.",
+      "imagen": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80",
+      "enOferta": false
+    },
+    {
+      "id": "tattoo-008",
+      "nombre": "Reloj Realista",
+      "descripcion": "Reloj de bolsillo en hiperrealismo con reflexiones de luz y sombras profundas.",
+      "imagen": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+      "enOferta": false
+    },
+    {
+      "id": "tattoo-009",
+      "nombre": "Fenix Minimalista",
+      "descripcion": "Fénix en estilo fine line minimalista, trazo único continuo.",
+      "imagen": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80",
+      "enOferta": true
+    },
+    {
+      "id": "tattoo-010",
+      "nombre": "Árbol de la Vida",
+      "descripcion": "Árbol celta con entrelazados geométricos, ideal para espalda completa.",
+      "imagen": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&q=80",
+      "enOferta": false
+    },
+    {
+      "id": "tattoo-011",
+      "nombre": "Calavera Geométrica",
+      "descripcion": "Calavera construida con formas geométricas y patrones de baja poligonalidad.",
+      "imagen": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&q=80",
+      "enOferta": false
+    },
+    {
+      "id": "tattoo-012",
+      "nombre": "Mariposa Acuarela",
+      "descripcion": "Mariposa en técnica acuarela con colores que se difuminan sobre la piel.",
+      "imagen": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80",
+      "enOferta": true
     }
+  ],
+  "contacto": {
+    "telefono": "+5354511693",
+    "whatsapp": "+5491145678901",
+    "instagram": "@serberoink",
+    "direccion": "Av. Corrientes 1234, CABA, Buenos Aires"
+  }
 }
